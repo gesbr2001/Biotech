@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@300;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(
+    64.46deg,
+    #0047e6 0.17%,
+    rgba(230, 0, 76, 0.46) 98.24%
+  );
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.imagem-navbar {
+  height: 62px;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 45px;
+}
+
+.navabr-links {
+  font-family: 'Inter', sans-serif;
+
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 10px;
+
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navabr-links:hover {
+  background-color: #2f4ad2;
+  color: #fff;
+}
+
+.conteudo {
+  border-top: 0.4px solid #ffffff;
+  margin-bottom: 40px;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-titulo {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.conteudo-principal-subtitulo {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.botao-primario {
+  background-color: #ffffff;
+  color: #b462a4;
+  width: 120px;
+  height: 50px;
+  border: none;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+}
+
+.botao-primario:hover {
+  background-color: #e892b0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  color: #fff;
+}
+
+.imagem-principal {
+  height: 430px;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+
+  margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+  border-top: 0.4px solid #ffffff;
+  padding-top: 48px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.contedo-secundario-subtitulo {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.footer {
+  padding: 30px;
+  border-top: 1px solid #fff;
+}
+
+.footer-texto {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-family: 'Inter';
+}
